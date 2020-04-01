@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pm2.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,9 @@
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -70,7 +73,7 @@
       <workItem from="1585554497100" duration="8964000" />
       <workItem from="1585624211754" duration="5037000" />
       <workItem from="1585645633251" duration="8648000" />
-      <workItem from="1585660473236" duration="5761000" />
+      <workItem from="1585660473236" duration="11756000" />
     </task>
     <servers />
   </component>
@@ -94,25 +97,29 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="717" y="311" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585538480948" />
-    <state width="1828" height="274" key="GridCell.Tab.0.bottom" timestamp="1585530114322">
+    <state width="1828" height="274" key="GridCell.Tab.0.bottom" timestamp="1585726019225">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585530114322" />
-    <state width="1828" height="274" key="GridCell.Tab.0.center" timestamp="1585530114322">
+    <state width="1828" height="274" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019225" />
+    <state width="1828" height="274" key="GridCell.Tab.0.center" timestamp="1585726019225">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585530114322" />
-    <state width="1828" height="274" key="GridCell.Tab.0.left" timestamp="1585530114322">
+    <state width="1828" height="274" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019225" />
+    <state width="1828" height="274" key="GridCell.Tab.0.left" timestamp="1585726019224">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585530114322" />
-    <state width="1828" height="274" key="GridCell.Tab.0.right" timestamp="1585530114322">
+    <state width="1828" height="274" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019224" />
+    <state width="1828" height="274" key="GridCell.Tab.0.right" timestamp="1585726019225">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585530114322" />
+    <state width="1828" height="274" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019225" />
     <state x="656" y="259" key="search.everywhere.popup" timestamp="1585644160936">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="656" y="259" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585644160936" />
+    <state x="665" y="372" width="646" height="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1585725645023">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="665" y="372" width="646" height="369" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585725645023" />
   </component>
 </project>

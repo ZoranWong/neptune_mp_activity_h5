@@ -10,7 +10,7 @@ import { renderToString } from 'react-dom/server';
 let render = require('koa-views-render');
 // 配置文件
 const config = {
-  hostName : '127.0.0.1',
+  hostName : '127.0.0.0.0',
   port: 8091
 };
 
