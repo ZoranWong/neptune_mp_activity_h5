@@ -11,7 +11,7 @@ let render = require('koa-views-render');
 // 配置文件
 const config = {
   hostName : '0.0.0.0',
-  port: 8091
+  port: 8000
 };
 
 // 实例化 koa
