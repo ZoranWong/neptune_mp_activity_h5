@@ -29,9 +29,10 @@
   "scripts": {
     "eject": "react-scripts eject",
     "start": "react-app-rewired start",
-    "build-dev": "cross-env NODE_ENV=development react-app-rewired build --mode development",
+    "build-dev": "cross-env APP_ENV=dev react-app-rewired build",
+    "build": "cross-env APP_ENV=prod react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
-    "dev-server": "cross-env NODE_ENV=development node ./server"
+    "dev-server": "node ./server"
   },
   "eslintConfig": {
     "extends": "react-app"

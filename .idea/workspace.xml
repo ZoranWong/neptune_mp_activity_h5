@@ -4,8 +4,11 @@
     <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pm2.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +37,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettier.import.notification.dismissed" value="true" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +78,8 @@
       <workItem from="1585554497100" duration="8964000" />
       <workItem from="1585624211754" duration="5037000" />
       <workItem from="1585645633251" duration="8648000" />
-      <workItem from="1585660473236" duration="11756000" />
+      <workItem from="1585660473236" duration="13174000" />
+      <workItem from="1585732755429" duration="3183000" />
     </task>
     <servers />
   </component>
@@ -97,22 +103,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="717" y="311" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585538480948" />
-    <state width="1828" height="274" key="GridCell.Tab.0.bottom" timestamp="1585726019225">
+    <state width="1828" height="274" key="GridCell.Tab.0.bottom" timestamp="1585732735292">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019225" />
-    <state width="1828" height="274" key="GridCell.Tab.0.center" timestamp="1585726019225">
+    <state width="1828" height="274" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585732735292" />
+    <state width="1828" height="274" key="GridCell.Tab.0.center" timestamp="1585732735292">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019225" />
-    <state width="1828" height="274" key="GridCell.Tab.0.left" timestamp="1585726019224">
+    <state width="1828" height="274" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585732735292" />
+    <state width="1828" height="274" key="GridCell.Tab.0.left" timestamp="1585732735292">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019224" />
-    <state width="1828" height="274" key="GridCell.Tab.0.right" timestamp="1585726019225">
+    <state width="1828" height="274" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585732735292" />
+    <state width="1828" height="274" key="GridCell.Tab.0.right" timestamp="1585732735292">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1828" height="274" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585726019225" />
+    <state width="1828" height="274" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585732735292" />
+    <state x="586" y="262" width="815" height="582" key="find.popup" timestamp="1585734134756">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="586" y="262" width="815" height="582" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585734134756" />
     <state x="656" y="259" key="search.everywhere.popup" timestamp="1585644160936">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

@@ -2,7 +2,7 @@ module.exports = {
     apps: [
         {
             name: 'React-SSR', // 应用名称
-            script: './server/app.js', // 启动文件地址
+            script: './server', // 启动文件地址
             cwd: './', // 当前工作路径
             watch: [
                 // 监控变化的目录，一旦变化，自动重启
@@ -17,7 +17,7 @@ module.exports = {
             ],
             node_args: '--harmony', // node的启动模式
             env: {
-                NODE_ENV: 'development', // 设置运行环境，此时process.env.NODE_ENV的值就是development
+                API_ENV: 'development', // 设置运行环境，此时process.env.NODE_ENV的值就是development
                 ORIGIN_ADDR: 'http://www.yoduao.com'
             },
             env_production: {
