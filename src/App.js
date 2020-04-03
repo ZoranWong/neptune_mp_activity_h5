@@ -135,7 +135,7 @@ class App extends Component {
                         })
                     }
                     <div style={imgStyle} onClick={this.goShoppingCart}>
-                        <img src="./white_cart.png" style={{width: '24px', height: '24px'}} alt=""/>
+                        <img src="./activity_images/white_cart.png" style={{width: '24px', height: '24px'}} alt=""/>
                         {
                             this.state.productsInCart.length ? <span style={cartLengthStyle} >
                             {this.caculateCartQuantity()}

@@ -79,7 +79,7 @@ class Products extends Component {
                                         <h4 style={productStyle.h4Style}>{product['act_price']}</h4>
                                         <span style={productStyle.spanStyle}>￥{product['product_stock']['product_entity']['retail_price']}</span>
                                     </div>
-                                    <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./add.png" alt="" />
+                                    <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./activity_images/add.png" alt="" />
                                 </div>
                             </div>
                         </li>
