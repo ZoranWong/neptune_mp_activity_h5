@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="" />
+    <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,21 +35,22 @@
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettier.import.notification.dismissed" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/activity_images" />
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/static/images" />
       <recent name="$PROJECT_DIR$/src/api" />
       <recent name="$PROJECT_DIR$/src/utils" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunManager">
@@ -76,6 +79,7 @@
       <workItem from="1585813049899" duration="599000" />
       <workItem from="1585877188057" duration="1296000" />
       <workItem from="1585892143939" duration="830000" />
+      <workItem from="1585894646785" duration="593000" />
     </task>
     <servers />
   </component>
@@ -115,18 +119,18 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1828" height="274" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585732735292" />
-    <state x="461" y="146" key="SettingsEditor" timestamp="1585892960996">
+    <state x="751" y="94" key="SettingsEditor" timestamp="1585893929735">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
-    <state x="461" y="146" key="SettingsEditor/0.23.1920.969@0.23.1920.969" timestamp="1585892960996" />
+    <state x="751" y="94" key="SettingsEditor/0.23.1920.969@0.23.1920.969" timestamp="1585893929735" />
     <state x="586" y="262" width="815" height="582" key="find.popup" timestamp="1585889287477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="586" y="262" width="815" height="582" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585889287477" />
-    <state x="705" y="387" width="665" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585892865511">
+    <state x="705" y="387" width="705" height="326" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585894082811">
       <screen x="0" y="23" width="1920" height="969" />
     </state>
-    <state x="705" y="387" width="665" height="279" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1920.969@0.23.1920.969" timestamp="1585892865511" />
+    <state x="705" y="387" width="705" height="326" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.23.1920.969@0.23.1920.969" timestamp="1585894082811" />
     <state x="656" y="259" key="search.everywhere.popup" timestamp="1585644160936">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
