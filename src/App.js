@@ -127,9 +127,7 @@ class App extends Component {
         };
         return (
             <div className="App" style={{position: 'relative'}}>
-                {/*<CustomHeader title={title} height={this.state.statusHeight} />*/}
-                <div style={{display: 'flex', flexDirection: 'column'}}>
-                {/*<div style={{height: this.state.mainHeight + 'px', overflow: 'auto'}}>*/}
+                <div >
                     {
                         templates.map(template => {
                             return this.renderTemplate(template)
