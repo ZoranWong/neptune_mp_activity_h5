@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/out.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1585660473236" duration="13174000" />
       <workItem from="1585732755429" duration="6003000" />
       <workItem from="1585813049899" duration="599000" />
-      <workItem from="1585877188057" duration="788000" />
+      <workItem from="1585877188057" duration="1296000" />
     </task>
     <servers />
   </component>
@@ -116,10 +115,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1828" height="274" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585732735292" />
-    <state x="586" y="262" width="815" height="582" key="find.popup" timestamp="1585734134756">
+    <state x="586" y="262" width="815" height="582" key="find.popup" timestamp="1585889287477">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="586" y="262" width="815" height="582" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585734134756" />
+    <state x="586" y="262" width="815" height="582" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585889287477" />
     <state x="656" y="259" key="search.everywhere.popup" timestamp="1585644160936">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
