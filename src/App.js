@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {getActInfo, getCartInfo} from './api/home';
 import ShareButton from './components/ShareButton';
 import Products from './components/Products';
-import CustomHeader from './components/CustomHeader';
+// import CustomHeader from './components/CustomHeader';
 
 class App extends Component {
     constructor(props) {
