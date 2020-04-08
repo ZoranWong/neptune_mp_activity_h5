@@ -4,7 +4,6 @@ export const productStyle = {
         background: '#fff',
         boxSizing: 'border-box',
         padding: '0 10px',
-        transform: 'translateY(-35px)',
         borderTopLeftRadius: '10px',
         borderTopRightRadius: '10px',
     },
