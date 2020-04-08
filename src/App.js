@@ -127,7 +127,6 @@ class App extends Component {
         };
         return (
             <div className="App" style={{position: 'relative'}}>
-                123232121332121231231321123123123123213213312213213213213123213123123312
                 <div >
                     {
                         templates.map(template => {
