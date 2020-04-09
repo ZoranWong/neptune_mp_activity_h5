@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +80,8 @@
       <workItem from="1585877188057" duration="1296000" />
       <workItem from="1585892143939" duration="830000" />
       <workItem from="1585894646785" duration="2865000" />
-      <workItem from="1586240145531" duration="1567000" />
+      <workItem from="1586240145531" duration="2744000" />
+      <workItem from="1586396116349" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="change tab height">
       <created>1585896882047</created>
@@ -117,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586314007113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="测试">
+      <created>1586314766388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586314766388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +134,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change tab height" />
     <MESSAGE value="页面禁止缩放及微调" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面禁止缩放及微调" />
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
   </component>
   <component name="WindowStateProjectService">
     <state x="588" y="207" width="810" height="700" key="#JavaScript" timestamp="1585449079802">
@@ -141,10 +150,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="556" y="354" width="864" height="405" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585642444293" />
-    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1586314006897">
+    <state x="424" y="0" key="CommitChangelistDialog2" timestamp="1586401720482">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586314006897" />
+    <state x="424" y="0" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1586401720482" />
     <state x="424" y="23" key="CommitChangelistDialog2/0.23.1920.969@0.23.1920.969" timestamp="1585898825639" />
     <state x="717" y="311" key="FileChooserDialogImpl" timestamp="1585538480948">
       <screen x="67" y="27" width="1853" height="1053" />
