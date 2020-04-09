@@ -1,4 +1,27 @@
 export const productStyle = {
+    sellOutStyle: {
+        width: '114px',
+        height: '114px',
+        top: '10rpx',
+        left: '10rpx',
+        background: 'rgba(255,255,255,0.6)',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'absolute'
+    },
+    sellOutContent: {
+        width: '50%',
+        height: '20px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: '15px',
+        background: 'rgba(0,0,0,0.4)',
+        color: '#fff',
+        fontSize: '12px',
+        marginTop: '35px',
+    },
     productsStyle: {
         width: '100%',
         background: '#fff',
@@ -6,6 +29,7 @@ export const productStyle = {
         padding: '0 10px',
         borderTopLeftRadius: '10px',
         borderTopRightRadius: '10px',
+        position: 'relative'
     },
     liStyle : {
         width: '100%',
