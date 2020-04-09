@@ -65,25 +65,25 @@ class Products extends Component {
         return (
             <div>
                 <ul style={productStyle.productsStyle}>
-                    {products.length && products.map((product, index) => (
+                    {products.length ? products.map((product, index) => (
                         <li  style={productStyle.liStyle} key={index} onClick={()=>this.productDetail(product)}>
-                            <img style={productStyle.imageStyle}  src={product['product_stock']['product_entity'].image} alt="" />
-                            <div style={productStyle.productStyle}>
-                                <h3 style={productStyle.h3Style}>{product['product_stock']['product_entity'].name}</h3>
-                                <span style={productStyle.descStyle}>净含量:384g</span>
-                                <span style={productStyle.descStyle}>销量:{product['product_stock']['product_entity']['total_sales']}</span>
-                                {(product['tags'] && product['tags'].length) ? <em style={productStyle.tagStyle}>{product['tags'][0]}</em> : '' }
-                                <div style={productStyle.priceStyle}>
-                                    <div style={productStyle.leftStyle}>
-                                        <i style={productStyle.iStyle}>￥</i>
-                                        <h4 style={productStyle.h4Style}>{product['act_price']}</h4>
-                                        <span style={productStyle.spanStyle}>￥{product['product_stock']['product_entity']['retail_price']}</span>
-                                    </div>
-                                    <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./activity_images/add.png" alt="" />
-                                </div>
-                            </div>
+                        <img style={productStyle.imageStyle}  src={product['product_stock']['product_entity'].image} alt="" />
+                        <div style={productStyle.productStyle}>
+                        <h3 style={productStyle.h3Style}>{product['product_stock']['product_entity'].name}</h3>
+                        <span style={productStyle.descStyle}>净含量:384g</span>
+                        <span style={productStyle.descStyle}>销量:{product['product_stock']['product_entity']['total_sales']}</span>
+                        {(product['tags'] && product['tags'].length) ? <em style={productStyle.tagStyle}>{product['tags'][0]}</em> : '' }
+                        <div style={productStyle.priceStyle}>
+                        <div style={productStyle.leftStyle}>
+                        <i style={productStyle.iStyle}>￥</i>
+                        <h4 style={productStyle.h4Style}>{product['act_price']}</h4>
+                        <span style={productStyle.spanStyle}>￥{product['product_stock']['product_entity']['retail_price']}</span>
+                        </div>
+                        <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./activity_images/add.png" alt="" />
+                        </div>
+                        </div>
                         </li>
-                    ))}
+                    )) : '页面加载中···'}
                 </ul>
             </div>
         );
