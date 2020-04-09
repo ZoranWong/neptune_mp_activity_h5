@@ -83,8 +83,11 @@ class App extends Component {
         })
     };
     
+    
+    
     componentWillUnmount() {
         window.wx.miniProgram.postMessage({data: 'xxxxxxxx'})
+        window.wx.miniProgram.navigateBack({})
     }
     
     render() {
