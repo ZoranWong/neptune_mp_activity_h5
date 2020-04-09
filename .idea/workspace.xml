@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +81,7 @@
       <workItem from="1585892143939" duration="830000" />
       <workItem from="1585894646785" duration="2865000" />
       <workItem from="1586240145531" duration="2744000" />
-      <workItem from="1586396116349" duration="2431000" />
+      <workItem from="1586396116349" duration="2552000" />
     </task>
     <task id="LOCAL-00001" summary="change tab height">
       <created>1585896882047</created>

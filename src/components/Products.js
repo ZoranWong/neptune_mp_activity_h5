@@ -72,7 +72,7 @@ class Products extends Component {
                                 <h3 style={productStyle.h3Style}>{product['product_stock']['product_entity'].name}</h3>
                                 <span style={productStyle.descStyle}>净含量:384g</span>
                                 <span style={productStyle.descStyle}>销量:{product['product_stock']['product_entity']['total_sales']}</span>
-                                {products['tags'].length &&  <em style={productStyle.tagStyle}>{products['tags'][0]}</em> }
+                                {(product['tags'] && product['tags'].length) ? <em style={productStyle.tagStyle}>{product['tags'][0]}</em> : '' }
                                 <div style={productStyle.priceStyle}>
                                     <div style={productStyle.leftStyle}>
                                         <i style={productStyle.iStyle}>￥</i>
