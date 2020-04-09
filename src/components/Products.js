@@ -87,7 +87,7 @@ class Products extends Component {
                                     {
                                         (product['product_stock'] && product['product_stock'].stock > 0) ?
                                             <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./activity_images/add.png" alt="" /> :
-                                            <img style={productStyle.imgStyle} src="./activity_images/disabledAdd.png" alt="" />
+                                            <img style={productStyle.imgStyle} src="./activity_images/disabledAdd.jpg" alt="" />
                                     }
                                     
                                 </div>
