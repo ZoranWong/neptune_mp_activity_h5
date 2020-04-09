@@ -56,7 +56,7 @@ class Products extends Component {
     
     productDetail = (product) => {
         window.wx.miniProgram.navigateTo({
-            url: `/pages/user/goodDetail/main?type=mall&good_id=${product['product_id']}`,
+            url: `/pages/user/goodDetail/main?type=mall&good_id=${product['product_id']}&price=${product['act_price']}`,
         })
     };
     
