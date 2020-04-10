@@ -66,9 +66,9 @@ class Products extends Component {
             <div>
                 <ul style={productStyle.productsStyle}>
                     {products.length ? products.map((product, index) => (
-                        <li  style={productStyle.liStyle} key={index} onClick={()=>this.productDetail(product)}>
+                        <li  style={index === products.length -1 ? productStyle.liStyleLastChild :productStyle.liStyle} key={index} onClick={()=>this.productDetail(product)}>
                             {
-                                (product['product_stock'] && product['product_stock'].stock < 1) ?  <div style={productStyle.sellOutStyle} >
+                                (product['product_stock'] && product['product_stock']['in_stock'] < 1) ?  <div style={productStyle.sellOutStyle} >
                                     <span style={productStyle.sellOutContent}>已抢光</span>
                                 </div> : ''
                             }

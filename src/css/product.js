@@ -40,6 +40,14 @@ export const productStyle = {
         borderBottom: '1px solid #f2f2f2',
         boxSizing: 'border-box',
     },
+    liStyleLastChild : {
+        width: '100%',
+        padding: '15px 10px',
+        display: 'flex',
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        boxSizing: 'border-box',
+    },
     imageStyle: {
         width: '114px',
         height: '114px'

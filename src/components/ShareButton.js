@@ -10,12 +10,14 @@ class ShareButton extends Component {
     
     
     componentDidMount() {
-        this.setState({image: this.props.data})
+        this.setState({image: this.props.data});
+        let share = document.getElementById('share');
+        this.props.computedHeight(share.offsetHeight);
     }
     
     render() {
         return (
-            <div>
+            <div id='share'>
                 <img src={this.state.image} alt="" mode="widthFix" style={{width: '100%', height: 'auto'}} />
             </div>
         );
