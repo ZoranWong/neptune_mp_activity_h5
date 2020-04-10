@@ -5,8 +5,10 @@ import React from "react";
 
 
 const request = (env) => {
-  let service = Axios.create({
-      baseURL: Config[env].apiUrl + '/' + Config[env].apiPrefix,
+    let config = Config[env];
+    console.log(config, '==== config ====');
+    let service = Axios.create({
+      baseURL: config.apiUrl + '/' + config.apiPrefix,
       headers: {
           'Accept': '*/*'
       },
