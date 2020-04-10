@@ -42,7 +42,7 @@ module.exports = {
         // console.log(JSON.stringify(config));
         // 去掉hash值，解决asset-require-hook资源问题
         console.log('-------------------------------------- +++++++++++++++++++++++++++', env);
-        ToolConfigLoader(process.env.APP_ENV);
+        // ToolConfigLoader(process.env.APP_ENV);
         console.log(env, process.env.APP_ENV);
         process.APP_ENV = process.env.APP_ENV;
         config.module.rules.forEach(d => {
