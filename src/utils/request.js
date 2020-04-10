@@ -2,9 +2,9 @@ import Axios from 'axios'
 import Config from '../config/app.js'
 import { message  } from 'antd';
 import React from "react";
-
+let _this = this;
 function getQueryVariable (variable , defaultValue) {
-    let query = window.location.search.substring(1);
+    let query = _this.location.search.substring(1);
     let vars = query.split("&");
     for (var i=0;i<vars.length;i++) {
         var pair = vars[i].split("=");
