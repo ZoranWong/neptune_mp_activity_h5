@@ -1,7 +1,7 @@
 import request from '../utils/request'
 
-export function getActInfo(params,id) {
-	return request({
+export function getActInfo(params,id, env) {
+	return request(env)({
 		url: `/api/mp/activities/${id}`,
 		method: 'get',
 		params: params
@@ -9,8 +9,8 @@ export function getActInfo(params,id) {
 }
 
 // 根据id 获取商品详情信息
-export function getProductInfo(params) {
-	return request({
+export function getProductInfo(params, env) {
+	return request(env)({
 		url: `/api/mp/activity/products`,
 		method: 'get',
 		params: params
@@ -18,8 +18,8 @@ export function getProductInfo(params) {
 }
 
 // 获取当前购物车
-export function getCartInfo(params) {
-	return request({
+export function getCartInfo(params,env) {
+	return request(env)({
 		url: 'api/mp/mall/carts',
 		method: 'get',
 		params: params
@@ -30,8 +30,8 @@ export function getCartInfo(params) {
 //             product_stock_id: id,
 //             buy_num: num
 //         });
-export function addProductToCart(params) {
-	return request({
+export function addProductToCart(params, env) {
+	return request(env)({
 		url: 'api/mp/mall/carts',
 		method: 'post',
 		data: params
@@ -39,8 +39,8 @@ export function addProductToCart(params) {
 }
 
 // 修改购物车商品数量
-export function changeProductBuyNum(params,cart) {
-	return request({
+export function changeProductBuyNum(params,cart, env) {
+	return request(env)({
 		url: `api/mp/mall/carts/${cart}`,
 		method: 'put',
 		data: params

@@ -15,7 +15,8 @@ class App extends Component {
             title: '',
             productsInCart: [],
             token: '',
-            statusHeight: 0
+            statusHeight: 0,
+            env: 'dev'
         };
     }
 
@@ -26,17 +27,18 @@ class App extends Component {
         let token = this.getQueryVariable('token');
         let statusHeight = this.getQueryVariable('headHeight');
         let mainHeight = this.getQueryVariable('mainHeight');
-        this.setState({actId: params,token,statusHeight,mainHeight}, ()=>{
+        let env = this.getQueryVariable('env', 'dev');
+        this.setState({actId: params,token,statusHeight,mainHeight,env}, ()=>{
             this.refresh(token);
         });
-        getActInfo({}, params).then(r=>{
+        getActInfo({}, params, env).then(r=>{
             this.setState({data: r.data, templates: r.data.template, title: r.data.name})
         }).catch(_=>{});
         
     }
     
     refresh = (token) => {
-        getCartInfo({token}).then(r=>{
+        getCartInfo({token}, this.state.env).then(r=>{
             this.setState({productsInCart: r.data})
         }).catch(_=>{})
     };
@@ -50,14 +52,14 @@ class App extends Component {
         return quantity
     };
     
-    getQueryVariable = (variable) => {
+    getQueryVariable = (variable, defaultValue) => {
         let query = window.location.search.substring(1);
         let vars = query.split("&");
         for (var i=0;i<vars.length;i++) {
             var pair = vars[i].split("=");
             if(pair[0] == variable){return pair[1];}
         }
-        return(false);
+        return defaultValue;
     };
     
     renderTemplate = (template) => {
@@ -66,7 +68,8 @@ class App extends Component {
             key: template.name,
             token: this.state.token,
             productsInCart: this.state.productsInCart,
-            refresh: this.refresh
+            refresh: this.refresh,
+            env: this.state.env
         };
         switch (template.name) {
             case 'SHARE_BUTTON':

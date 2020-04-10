@@ -44,12 +44,12 @@ class Products extends Component {
     };
     
     addToCart = (id, num) => {
-        addProductToCart({product_stock_id: id,buy_num: 1, token: this.props.token}).then(r=>{
+        addProductToCart({product_stock_id: id,buy_num: 1, token: this.props.token}, this.props.env).then(r=>{
             this.props.refresh(this.props.token);
         })
     };
     changeBuyNum = (id, num) => {
-        changeProductBuyNum({buy_num: num, token: this.props.token}, id).then(r=>{
+        changeProductBuyNum({buy_num: num, token: this.props.token}, id, this.props.env).then(r=>{
             this.props.refresh(this.props.token);
         })
     };
