@@ -1,7 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: 'React-SSR', // 应用名称
+            name: 'Neptune_Activity_Service', // 应用名称
             script: './server', // 启动文件地址
             cwd: './', // 当前工作路径
             watch: [
