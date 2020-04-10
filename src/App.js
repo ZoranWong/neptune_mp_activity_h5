@@ -32,24 +32,8 @@ class App extends Component {
         getActInfo({}, params).then(r=>{
             this.setState({data: r.data, templates: r.data.template, title: r.data.name})
         }).catch(_=>{});
-        // let app = document.getElementsByClassName("App")[0];
-        // if(app){ //此处在加一层判断，更加严密，如果box存在的情况下获取
-        //     app.style.background = 'red';
-        //     console.log(app.clientHeight);
-        //     console.log(window.innerHeight);
-        // }
+        
     }
-    
-    computedHeight = (imgHeight) => {
-        let {productsInCart} = this.state;
-        let innerHeight = window.innerHeight;
-        let totalHeight = 0;
-        if (productsInCart) {
-            totalHeight = imgHeight + productsInCart.length * 144
-        }
-        let isShowBottom = totalHeight < innerHeight;
-        this.setState({isShowBottom})
-    };
     
     refresh = (token) => {
         getCartInfo({token}).then(r=>{
@@ -82,8 +66,7 @@ class App extends Component {
             key: template.name,
             token: this.state.token,
             productsInCart: this.state.productsInCart,
-            refresh: this.refresh,
-            computedHeight: this.computedHeight
+            refresh: this.refresh
         };
         switch (template.name) {
             case 'SHARE_BUTTON':
@@ -160,9 +143,7 @@ class App extends Component {
                         </span>: ''
                         }
                     </div>
-                    {
-                        this.state.isShowBottom ? <div className='bottomLine' style={bottomStyle}>- 我是有底线的 -</div> : ''
-                    }
+                    <div className='bottomLine' style={bottomStyle}>- 我是有底线的 -</div>
                 </div>
             </div>
         );

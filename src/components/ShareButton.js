@@ -11,8 +11,6 @@ class ShareButton extends Component {
     
     componentDidMount() {
         this.setState({image: this.props.data});
-        let share = document.getElementById('share');
-        this.props.computedHeight(share.offsetHeight);
     }
     
     render() {
