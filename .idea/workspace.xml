@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="" />
+    <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/out.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +84,7 @@
       <workItem from="1585892143939" duration="830000" />
       <workItem from="1585894646785" duration="2865000" />
       <workItem from="1586240145531" duration="2744000" />
-      <workItem from="1586396116349" duration="22379000" />
+      <workItem from="1586396116349" duration="22683000" />
     </task>
     <task id="LOCAL-00001" summary="change tab height">
       <created>1585896882047</created>
@@ -192,10 +196,10 @@
       <screen x="0" y="23" width="1920" height="969" />
     </state>
     <state x="751" y="94" key="SettingsEditor/0.23.1920.969@0.23.1920.969" timestamp="1585893929735" />
-    <state x="107" y="13" width="845" height="1014" key="find.popup" timestamp="1586541698959">
+    <state x="107" y="13" width="845" height="1014" key="find.popup" timestamp="1586543220433">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="107" y="13" width="845" height="1014" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586541698959" />
+    <state x="107" y="13" width="845" height="1014" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1586543220433" />
     <state x="538" y="83" width="845" height="909" key="find.popup/0.23.1920.969@0.23.1920.969" timestamp="1585898776737" />
     <state x="586" y="262" width="815" height="582" key="find.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1585889287477" />
     <state x="705" y="387" width="705" height="326" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1585894082811">

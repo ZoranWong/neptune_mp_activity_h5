@@ -12,7 +12,7 @@ class Products extends Component {
     
     
     componentDidMount() {
-        getProductInfo({ids: this.props.data}).then(r=>{
+        getProductInfo({ids: this.props.data}, this.props.env).then(r=>{
             this.setState({products: r.data})
         })
     }
