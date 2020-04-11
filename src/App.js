@@ -16,7 +16,8 @@ class App extends Component {
             productsInCart: [],
             token: '',
             statusHeight: 0,
-            env: 'dev'
+            env: 'dev',
+            isShowBottom: false
         };
     }
 
@@ -34,7 +35,8 @@ class App extends Component {
         getActInfo({}, params, env).then(r=>{
             this.setState({data: r.data, templates: r.data.template, title: r.data.name})
         }).catch(_=>{});
-        
+        window.addEventListener('scroll', this.bindScroll)
+    
     }
     
     refresh = (token) => {
@@ -89,8 +91,37 @@ class App extends Component {
     
     componentWillUnmount() {
         window.wx.miniProgram.postMessage({data: 'xxxxxxxx'});
-        window.wx.miniProgram.navigateBack({})
+        window.wx.miniProgram.navigateBack({});
+        window.removeEventListener('scroll', this.bindScroll);
     }
+    
+    bindScroll = (event) => {
+        // const scrollTop = (event.srcElement ? event.srcElement.documentElement.scrollTop : false) || window.pageYOffset || (event.srcElement ? event.srcElement.body.scrollTop : 0);
+        // // 视窗高度
+        // const clientHeight = (event.srcElement && event.srcElement.documentElement.clientHeight) || document.body.clientHeight;
+        // // 页面高度
+        // const scrollHeight = (event.srcElement && event.srcElement.documentElement.scrollHeight) || document.body.scrollHeight;
+        // // 距离页面底部的高度
+        // const height = scrollHeight - scrollTop - clientHeight;
+        let scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+        //滚动条滚动距离
+        let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+        //窗口可视范围高度
+        let clientHeight = window.innerHeight || Math.min(document.documentElement.clientHeight,document.body.clientHeight);
+    
+        // 判断距离页面底部的高度
+        if (clientHeight + scrollTop >= scrollHeight) {
+            // 判断执行回调条件
+            console.log('<0');
+            this.setState({isShowBottom: true})
+        } else {
+            console.log('>0');
+            this.setState({isShowBottom: false})
+        }
+    };
+    
+    
+    
     
     render() {
         const {templates,title} = this.state;
@@ -146,7 +177,9 @@ class App extends Component {
                         </span>: ''
                         }
                     </div>
-                    <div className='bottomLine' style={bottomStyle}>- 我是有底线的 -</div>
+                    {
+                        this.state.isShowBottom ? <div className='bottomLine' style={bottomStyle}>- 我是有底线的 -</div> : ''
+                    }
                 </div>
             </div>
         );

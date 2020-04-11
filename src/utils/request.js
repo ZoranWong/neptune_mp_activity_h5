@@ -6,7 +6,6 @@ import React from "react";
 
 const request = (env) => {
     let config = Config[env];
-    console.log(config, '==== config ====');
     let service = Axios.create({
       baseURL: config.apiUrl + '/' + config.apiPrefix,
       headers: {
