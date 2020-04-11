@@ -2330,3 +2330,496 @@
 2020-04-11 11:16 +08:00:     at Module.Hook._require.Module.require (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/require-in-the-middle/index.js:80:39)
 2020-04-11 11:16 +08:00:     at require (internal/modules/cjs/helpers.js:77:18)
 2020-04-11 11:16 +08:00:     at Object.<anonymous> (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/server/app.js:1:1)
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }
+2020-04-11 11:38 +08:00: SyntaxError: /Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/src/App.js: Unexpected token (115:20)
+2020-04-11 11:38 +08:00:   113 |         let appHeight = app.clientHeight;
+2020-04-11 11:38 +08:00:   114 |         let bodyHeight =
+2020-04-11 11:38 +08:00: > 115 |         console.log(, '========>');
+2020-04-11 11:38 +08:00:       |                     ^
+2020-04-11 11:38 +08:00:   116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');
+2020-04-11 11:38 +08:00:   117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');
+2020-04-11 11:38 +08:00:   118 |         if
+2020-04-11 11:38 +08:00:     at Parser.pp$5.raise (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:4454:13)
+2020-04-11 11:38 +08:00:     at Parser.pp.unexpected (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:1761:8)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3750:12)
+2020-04-11 11:38 +08:00:     at Parser.parseExprAtom (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:7238:22)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprSubscripts (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3494:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeUnary (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3474:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseExprOps (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3404:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeConditional (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3381:19)
+2020-04-11 11:38 +08:00:     at Parser.pp$3.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:3344:19)
+2020-04-11 11:38 +08:00:     at Parser.parseMaybeAssign (/Users/caowei/Documents/Q/Projects/neptune_mp_activity_h5/node_modules/babylon/lib/index.js:6474:20) {
+2020-04-11 11:38 +08:00:   pos: 4128,
+2020-04-11 11:38 +08:00:   loc: Position { line: 115, column: 20 },
+2020-04-11 11:38 +08:00:   _babel: true,
+2020-04-11 11:38 +08:00:   codeFrame: '  113 |         let appHeight = app.clientHeight;\n' +
+2020-04-11 11:38 +08:00:     '  114 |         let bodyHeight =\n' +
+2020-04-11 11:38 +08:00:     "> 115 |         console.log(, '========>');\n" +
+2020-04-11 11:38 +08:00:     '      |                     ^\n' +
+2020-04-11 11:38 +08:00:     "  116 |         console.log(document.documentElement.clientHeight, 'document.documentElement.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     "  117 |         console.log(document.body.clientHeight, 'document.body.clientHeight');\n" +
+2020-04-11 11:38 +08:00:     '  118 |         if'
+2020-04-11 11:38 +08:00: }

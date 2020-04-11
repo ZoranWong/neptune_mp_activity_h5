@@ -108,14 +108,14 @@ class App extends Component {
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
         //窗口可视范围高度
         let clientHeight = window.innerHeight || Math.min(document.documentElement.clientHeight,document.body.clientHeight);
-    
+        
+        let app = document.getElementsByClassName('App')[0];
+        let appHeight = app.clientHeight;
+        let bodyHeight = document.documentElement.clientHeight;
         // 判断距离页面底部的高度
-        if (clientHeight + scrollTop >= scrollHeight) {
-            // 判断执行回调条件
-            console.log('<0');
+        if (appHeight > bodyHeight) {
             this.setState({isShowBottom: true})
         } else {
-            console.log('>0');
             this.setState({isShowBottom: false})
         }
     };

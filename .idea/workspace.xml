@@ -6,7 +6,6 @@
       <change beforePath="$PROJECT_DIR$/logs/err.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/err.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/out.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/out.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1585892143939" duration="830000" />
       <workItem from="1585894646785" duration="2865000" />
       <workItem from="1586240145531" duration="2744000" />
-      <workItem from="1586396116349" duration="24432000" />
+      <workItem from="1586396116349" duration="25166000" />
     </task>
     <task id="LOCAL-00001" summary="change tab height">
       <created>1585896882047</created>
