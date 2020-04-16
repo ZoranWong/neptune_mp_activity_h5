@@ -60,6 +60,26 @@ class Products extends Component {
         })
     };
     
+    hasStock = (product) => {
+        let hasStock = true;
+        if (product['has_sell_limit']) {
+            hasStock = product['last_num'] > 0 && product['product_stock']['in_stock'] > 0
+        } else {
+            hasStock = product['product_stock']['in_stock'] > 0
+        }
+        return hasStock
+    };
+    
+    handleStockNum = (product) => {
+        let num = 0;
+        if (product['has_sell_limit']) {
+            num = product['last_num']
+        } else {
+            num = product['product_stock']['in_stock']
+        }
+        return num
+    };
+    
     render() {
         let {products} = this.state;
         return (
@@ -68,15 +88,19 @@ class Products extends Component {
                     {products.length ? products.map((product, index) => (
                         <li  style={index === products.length -1 ? productStyle.liStyleLastChild :productStyle.liStyle} key={index} onClick={()=>this.productDetail(product)}>
                             {
-                                (product['product_stock'] && product['product_stock']['in_stock'] < 1) ?  <div style={productStyle.sellOutStyle} >
+                                this.hasStock(product) ? '' : <div style={productStyle.sellOutStyle} >
                                     <span style={productStyle.sellOutContent}>已抢光</span>
-                                </div> : ''
+                                </div>
                             }
                             <img style={productStyle.imageStyle}  src={product['product_stock']['product_entity'].image} alt="" />
                             <div style={productStyle.productStyle}>
-                                <h3 style={productStyle.h3Style}>{product['product_stock']['product_entity'].name}</h3>
+                                <h3 style={productStyle.h3Style}>{product['product_stock']['product_entity']['display_name']}</h3>
                                 <span style={productStyle.descStyle}>净含量:384g</span>
-                                <span style={productStyle.descStyle}>销量:{product['product_stock']['product_entity']['total_sales']}</span>
+                                <div>
+                                    <span style={productStyle.descStyle}>销量:{product['product_stock']['product_entity']['total_sales']}</span>
+                                    <span style={productStyle.stockStyle}>优惠商品剩余{this.handleStockNum(product)}件</span>
+                                </div>
+                               
                                 {(product['tags'] && product['tags'].length) ? <em style={productStyle.tagStyle}>{product['tags'][0]}</em> : '' }
                                 <div style={productStyle.priceStyle}>
                                     <div style={productStyle.leftStyle}>
@@ -85,7 +109,7 @@ class Products extends Component {
                                     <span style={productStyle.spanStyle}>￥{product['product_stock']['product_entity']['retail_price']}</span>
                                     </div>
                                     {
-                                        (product['product_stock'] && product['product_stock'].stock > 0) ?
+                                        this.hasStock(product) ?
                                             <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./activity_images/add.png" alt="" /> :
                                             <img style={productStyle.imgStyle} src="./activity_images/disabledAdd.jpg" alt="" />
                                     }

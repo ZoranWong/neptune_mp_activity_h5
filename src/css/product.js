@@ -70,6 +70,11 @@ export const productStyle = {
     },
     descStyle: {
         fontSize: '12px',
+        color: '#999',
+        marginRight: '30px'
+    },
+    stockStyle: {
+        fontSize: '12px',
         color: '#999'
     },
     tagStyle: {
