@@ -17,8 +17,25 @@ class Products extends Component {
         })
     }
     
+    createElement = p => {
+        let ball = document.createElement('div');
+        let parent = document.getElementsByClassName(`li${p.id}`)[0];
+        ball.style.width="20px";
+        ball.style.height="20px";
+        ball.style.borderRadius="50%";
+        ball.style.position="absolute";
+        ball.style.left="0px";
+        ball.style.top="0px";
+        ball.style.backgroundColor="red";
+        parent.appendChild(ball)
+    };
+    
     checkInCart = (e,p) => {
+        console.log(e, '{}{}}');
         e.stopPropagation();
+        
+        //this.createElement(p);
+        
         let products = this.props.productsInCart;
         if (products.length) {
             let isInCart = false;
@@ -86,7 +103,7 @@ class Products extends Component {
             <div>
                 <ul style={productStyle.productsStyle}>
                     {products.length ? products.map((product, index) => (
-                        <li  style={index === products.length -1 ? productStyle.liStyleLastChild :productStyle.liStyle} key={index} onClick={()=>this.productDetail(product)}>
+                        <li className={'li' + product.id} style={index === products.length -1 ? productStyle.liStyleLastChild :productStyle.liStyle} key={index} onClick={()=>this.productDetail(product)}>
                             {
                                 this.hasStock(product) ? '' : <div style={productStyle.sellOutStyle} >
                                     <span style={productStyle.sellOutContent}>已抢光</span>
@@ -107,10 +124,13 @@ class Products extends Component {
                                     <i style={productStyle.iStyle}>￥</i>
                                     <h4 style={productStyle.h4Style}>{product['act_price']}</h4>
                                     <span style={productStyle.spanStyle}>￥{product['product_stock']['product_entity']['retail_price']}</span>
-                                    </div>
+                                    </div >
                                     {
                                         this.hasStock(product) ?
-                                            <img style={productStyle.imgStyle} onClick={(e)=>this.checkInCart(e,product)} src="./activity_images/add.png" alt="" /> :
+                                            <div style={productStyle.clickAreaStyle} onClick={(e)=>this.checkInCart(e,product)}>
+                                                <img style={productStyle.imgStyle}  src="./activity_images/add.png" alt="" />
+                                            </div>
+                                             :
                                             <img style={productStyle.imgStyle} src="./activity_images/disabledAdd.jpg" alt="" />
                                     }
                                     

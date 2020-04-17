@@ -117,8 +117,23 @@ export const productStyle = {
         marginLeft: '5px',
         transform: 'translateY(-1px)'
     },
+    clickAreaStyle: {
+        width: '40px',
+        height: '40px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
     imgStyle: {
         width: '24px',
         height: '24px'
+    },
+    ballStyle: {
+        width: '40px',
+        height: '40px',
+        background: 'red',
+        position: 'absolute',
+        top: 0,
+        left: '100px'
     }
 };
