@@ -72,9 +72,9 @@ class Products extends Component {
     };
     
     productDetail = (product) => {
-        let hasStock = this.hasStock(product);
+        let stockInfo = this.hasStock(product) ? '尚有库存' : '暂无库存';
         window.wx.miniProgram.navigateTo({
-            url: `/pages/user/goodDetail/main?type=mall&good_id=${product['product_id']}&price=${product['act_price']}&hasStock=${hasStock}`,
+            url: `/pages/user/goodDetail/main?type=mall&good_id=${product['product_id']}&price=${product['act_price']}&stockInfo=${stockInfo}`,
         })
     };
     
