@@ -72,8 +72,9 @@ class Products extends Component {
     };
     
     productDetail = (product) => {
+        let hasStock = this.hasStock(product);
         window.wx.miniProgram.navigateTo({
-            url: `/pages/user/goodDetail/main?type=mall&good_id=${product['product_id']}&price=${product['act_price']}`,
+            url: `/pages/user/goodDetail/main?type=mall&good_id=${product['product_id']}&price=${product['act_price']}&hasStock=${hasStock}`,
         })
     };
     
