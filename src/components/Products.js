@@ -3,11 +3,12 @@ import {productStyle} from '../css/product';
 import { getProductInfo, addProductToCart, changeProductBuyNum, getCartInfo } from '../api/home';
 
 class Products extends Component {
+    loading = false;
     constructor(props) {
         super(props);
         this.state = {
-            products: []
-        }
+            products: [],
+        };
     }
     
     
@@ -35,7 +36,8 @@ class Products extends Component {
         e.stopPropagation();
         
         //this.createElement(p);
-        
+        if (this.loading) return;
+        this.loading = true;
         let products = this.props.productsInCart;
         if (products.length) {
             let isInCart = false;
@@ -51,23 +53,27 @@ class Products extends Component {
                 }
             }
             if (isInCart) {
-                this.changeBuyNum(inCartProduct.id, inCartProduct['buy_num'] + 1)
+                this.changeBuyNum(inCartProduct.id, inCartProduct['buy_num'] + 1);
             } else {
-                this.addToCart(p['product_stock_id'], 1)
+                this.addToCart(p['product_stock_id'], 1);
             }
         } else {
-            this.addToCart(p['product_stock_id'], 1)
+            this.addToCart(p['product_stock_id'], 1);
         }
+    
+        
     };
     
     addToCart = (id, num) => {
         addProductToCart({product_stock_id: id,buy_num: 1, token: this.props.token}, this.props.env).then(r=>{
             this.props.refresh(this.props.token);
+            this.loading = false
         })
     };
     changeBuyNum = (id, num) => {
         changeProductBuyNum({buy_num: num, token: this.props.token}, id, this.props.env).then(r=>{
             this.props.refresh(this.props.token);
+            this.loading = false
         })
     };
     
