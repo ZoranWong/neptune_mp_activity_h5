@@ -8,6 +8,7 @@ class Products extends Component {
         super(props);
         this.state = {
             products: [],
+            productsInCart: []
         };
     }
     
@@ -15,8 +16,16 @@ class Products extends Component {
     componentDidMount() {
         getProductInfo({ids: this.props.data}, this.props.env).then(r=>{
             this.setState({products: r.data})
-        })
+        });
+        this.refresh();
     }
+    
+    refresh = () => {
+        getCartInfo({token: this.props.token}, this.props.env).then(r=>{
+            this.setState({productsInCart: r.data});
+            this.loading = false
+        }).catch(_=>{})
+    };
     
     createElement = p => {
         let ball = document.createElement('div');
@@ -38,7 +47,7 @@ class Products extends Component {
         //this.createElement(p);
         if (this.loading) return;
         this.loading = true;
-        let products = this.props.productsInCart;
+        let products = this.state.productsInCart;
         if (products.length) {
             let isInCart = false;
             let inCartProduct = {};
@@ -67,13 +76,13 @@ class Products extends Component {
     addToCart = (id, num) => {
         addProductToCart({product_stock_id: id,buy_num: 1, token: this.props.token}, this.props.env).then(r=>{
             this.props.refresh(this.props.token);
-            this.loading = false
+            this.refresh();
         })
     };
     changeBuyNum = (id, num) => {
         changeProductBuyNum({buy_num: num, token: this.props.token}, id, this.props.env).then(r=>{
             this.props.refresh(this.props.token);
-            this.loading = false
+            this.refresh();
         })
     };
     
