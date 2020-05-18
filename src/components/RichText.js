@@ -22,7 +22,7 @@ class RichText extends Component {
     
     render() {
         return (
-            <div style={{padding: '10px'}}>
+            <div style={{padding: '0 10px'}}>
                 {
                     this.state.data ? <div  dangerouslySetInnerHTML={{
                         __html: this.state.data

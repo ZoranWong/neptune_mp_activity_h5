@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e280fd67-b846-4fa2-aaed-e9b244514c4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RichText.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RichText.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +91,7 @@
       <workItem from="1588471424835" duration="189000" />
       <workItem from="1588583789345" duration="324000" />
       <workItem from="1589333293057" duration="1524000" />
-      <workItem from="1589787601350" duration="969000" />
+      <workItem from="1589787601350" duration="1032000" />
     </task>
     <task id="LOCAL-00001" summary="change tab height">
       <created>1585896882047</created>
