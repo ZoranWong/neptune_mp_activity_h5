@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import {getActInfo, getCartInfo} from './api/home';
 import ShareButton from './components/ShareButton';
 import Products from './components/Products';
+import RichText from './components/RichText';
 // import CustomHeader from './components/CustomHeader';
 
 class App extends Component {
@@ -78,6 +79,8 @@ class App extends Component {
                 return <ShareButton {...props} />;
             case 'PRODUCTS':
                 return <Products {...props} />;
+            case 'RICH_TEXT':
+                return <RichText {...props} />;
             default :
                 return ''
         }
